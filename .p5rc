@@ -1,6 +1,7 @@
 {
   "name": "marvelgraph",
   "projects": [
-    "firstTry"
+    "firstTry",
+    "AStar"
   ]
 }

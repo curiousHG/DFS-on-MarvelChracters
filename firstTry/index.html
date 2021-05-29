@@ -5,28 +5,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>firstTry</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <!-- <script src="papaparse.min.js"></script> -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
 
     <script src="../libraries/p5.js"></script>
     <script src="../libraries/p5.dom.js"></script>
     <script src="../libraries/p5.sound.js"></script>
     <script src="sketch.js"></script>
     <script src="readingCSV.js"></script>
-	<script src="graph.js"></script>
-
-    <style>
-      body {
-        margin: 0;
-        margin-left: 45px;
-        padding: 0;
-        overflow: hidden;
-      }
-      canvas {
-        margin: auto;
-      }
-    </style>
+    <script src="graph.js"></script>
+    <title>firstTry</title>
   </head>
-  <body></body>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col">
+          <select
+            class="form-select"
+            aria-label="Default select example"
+            id="1"
+          >
+            <option selected>Select Character 1</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+        </div>
+        <div class="col">
+          <select
+            class="form-select"
+            aria-label="Default select example"
+            id="2"
+          >
+            <option selected>Select Character 2</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+        </div>
+        <div class="col">
+          <button type="button" class="btn btn-primary">Find Path</button>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
