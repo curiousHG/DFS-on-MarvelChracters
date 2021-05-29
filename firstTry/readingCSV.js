@@ -10,6 +10,8 @@
 var nodes;
 var edges;
 async function preload() {
-    nodes = await loadTable('../nodes.csv', 'csv', 'header');
-    edges = await loadTable('../edges.csv', 'csv', 'header');
+    // nodes = await loadTable('data/nodes.csv', 'csv', 'header');
+    // edges = await loadTable('data/edges.csv', 'csv', 'header');
+    nodes = await loadTable('data/nodeTest2.csv', 'csv', 'header');
+    edges = await loadTable('data/edgeTest2.csv', 'csv', 'header');
 }
