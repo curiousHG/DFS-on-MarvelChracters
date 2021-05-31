@@ -1,3 +1,2 @@
 ## Marking Marvel Characters as points on a 2D plane
-To run the code 
-npm install
+simply open the index.html file to run the code in the "firstTry" folder
